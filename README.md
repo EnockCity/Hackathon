@@ -43,9 +43,9 @@ To predict the churn possibility of a customer from the telecommunication compan
 <p> We took time to understand the data and clean it.
 Some of the tasks we did: <br>
 1. Handling missing values - We used median as our imputation for this data <br>
-2. Feature selection
-2. Categorical variables were encoded <br>
-3. Columns we demeaned would have correlation were dropped. <br>
+2. Feature selection <br>
+3. Categorical variables were encoded <br>
+4. Columns we demeaned would have correlation were dropped. <br>
 <img src="corr.png" alt = "corr Matrix">
 
 <h3> Modelling </h3>
