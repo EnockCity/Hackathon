@@ -4,15 +4,15 @@ The contributors to this Hackathon Challenge are:<br>
 <h1> TeleCommunication Churn </h1>
 <img src="oldphone.jpg" alt="vintage phone">
 <h2>Executive Summary </h2>
-This hackathon involves involves creating a model to predict retention of customers in Telecommunication companies.
-Data was gotten from Kaggle Website. 
+This hackathon involves creating a model to predict retention of customers in Telecommunication companies.
+Data was obtained from Kaggle Website. 
 
 We developed several models however only logistic regression gave viable results.
 
-Logistic regression model gave an accuracy of 80 percent,indicating it performed fairly well on the dataset.
+Logistic regression model gave an accuracy of 80.3 percent,indicating it performed fairly well on the dataset.
 
-The classification report metrics potrayed accurate predictions indicating a relatively performance of the model.
-<h3> Data definition </h3>
+The classification report metrics potrayed accurate predictions indicating a relatively better performance of the model.
+<h3> Variables Definition </h3>
 <ol>
 <li>Gender: The customer’s gender: Male, Female</li>
 <li>Senior Citizen: Indicates if the customer is 65 or older: Yes, No</li>
@@ -43,7 +43,8 @@ To predict the churn possibility of a customer from the telecommunication compan
 <p> We took time to understand the data and clean it.
 Some of the tasks we did: <br>
 1. Handling missing values - We used median as our imputation for this data <br>
-2. Categorical data was encoded <br>
+2. Feature selection
+2. Categorical variables were encoded <br>
 3. Columns we demeaned would have correlation were dropped. <br>
 <img src="corr.png" alt = "corr Matrix">
 
@@ -53,5 +54,3 @@ Some of the tasks we did: <br>
 'MonthlyCharges', 'TotalCharges', 'Contract' </p>
 <h3> Conclusion </h3>
 <p>We hope to continue to fine tune the model </p>
-
-
